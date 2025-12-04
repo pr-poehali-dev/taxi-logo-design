@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 const Index = () => {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = 'https://cdn.poehali.dev/projects/d262a5fc-d829-49a2-b56e-825bff10de26/files/5de11b39-c157-4a96-9095-443f7a6aa8cd.jpg';
+    link.href = 'https://cdn.poehali.dev/projects/d262a5fc-d829-49a2-b56e-825bff10de26/files/af83aebf-04b5-49fd-9cb3-6a69300dc8ac.jpg';
     link.download = 'Los-Santos-Taxi-Logo.jpg';
     document.body.appendChild(link);
     link.click();
@@ -25,7 +25,7 @@ const Index = () => {
         <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 shadow-2xl border border-white/20 mb-8 animate-scale-in">
           <div className="bg-white rounded-xl p-12 flex items-center justify-center min-h-[400px]">
             <img 
-              src="https://cdn.poehali.dev/projects/d262a5fc-d829-49a2-b56e-825bff10de26/files/5de11b39-c157-4a96-9095-443f7a6aa8cd.jpg" 
+              src="https://cdn.poehali.dev/projects/d262a5fc-d829-49a2-b56e-825bff10de26/files/af83aebf-04b5-49fd-9cb3-6a69300dc8ac.jpg" 
               alt="Логотип Такси Los-Santos" 
               className="max-w-full h-auto hover-scale"
             />
@@ -51,8 +51,8 @@ const Index = () => {
           
           <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10 hover:bg-white/10 transition-all duration-300">
             <div className="text-3xl mb-3">🚖</div>
-            <h3 className="text-white font-semibold text-lg mb-2">Символ такси</h3>
-            <p className="text-gray-400 text-sm">Стилизованная машина в динамике</p>
+            <h3 className="text-white font-semibold text-lg mb-2">Жёлтое такси</h3>
+            <p className="text-gray-400 text-sm">Классический цвет такси в динамике</p>
           </div>
           
           <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10 hover:bg-white/10 transition-all duration-300">
