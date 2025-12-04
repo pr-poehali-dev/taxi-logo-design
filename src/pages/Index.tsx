@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 const Index = () => {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = 'https://cdn.poehali.dev/projects/d262a5fc-d829-49a2-b56e-825bff10de26/files/af83aebf-04b5-49fd-9cb3-6a69300dc8ac.jpg';
+    link.href = 'https://cdn.poehali.dev/projects/d262a5fc-d829-49a2-b56e-825bff10de26/files/ff87e973-609c-46a0-992c-106a7175b96d.jpg';
     link.download = 'Los-Santos-Taxi-Logo.jpg';
     document.body.appendChild(link);
     link.click();
@@ -25,7 +25,7 @@ const Index = () => {
         <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 shadow-2xl border border-white/20 mb-8 animate-scale-in">
           <div className="bg-white rounded-xl p-12 flex items-center justify-center min-h-[400px]">
             <img 
-              src="https://cdn.poehali.dev/projects/d262a5fc-d829-49a2-b56e-825bff10de26/files/af83aebf-04b5-49fd-9cb3-6a69300dc8ac.jpg" 
+              src="https://cdn.poehali.dev/projects/d262a5fc-d829-49a2-b56e-825bff10de26/files/ff87e973-609c-46a0-992c-106a7175b96d.jpg" 
               alt="Логотип Такси Los-Santos" 
               className="max-w-full h-auto hover-scale"
             />
